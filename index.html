@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <title>Nguyễn Văn Anh Đức - Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body { font-family: Arial, sans-serif; background: #f5f5f5; margin: 0; padding: 0; }
-        .container { max-width: 600px; margin: 40px auto; background: #fff; padding: 32px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);}
-        h1 { color: #2c3e50; }
-        .info { margin: 16px 0; }
-        .label { font-weight: bold; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Xịn Xò</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Nguyễn Văn Anh Đức</h1>
-        <div class="info"><span class="label">Email:</span> 2000005@dlu.edu.vn</div>
-        <div class="info"><span class="label">Số điện thoại:</span> 033176659</div>
-        <div class="info"><span class="label">Kinh nghiệm lập trình:</span> 1 năm</div>
-        <p>Chào mừng bạn đến với portfolio cá nhân của tôi!</p>
-    </div>
+  <div id="particles-js"></div>
+  <main class="container">
+    <section class="profile">
+      <img src="assets/avatar.jpg" alt="Avatar" class="avatar">
+      <h1>Nguyễn Văn Anh Đức</h1>
+      <p>Frontend Developer | UI/UX Enthusiast</p>
+    </section>
+    <section class="about">
+      <h2>Giới thiệu</h2>
+      <p>Tôi là lập trình viên đam mê thiết kế giao diện đẹp và trải nghiệm người dùng tuyệt vời. Kinh nghiệm với HTML, CSS, JavaScript.</p>
+    </section>
+    <section class="projects">
+      <h2>Dự án nổi bật</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>Website cá nhân với hiệu ứng động và responsive.</p>
+        </div>
+        <div class="project-card">
+          <h3>Landing Page Sản phẩm</h3>
+          <p>Thiết kế landing page hiện đại cho startup công nghệ.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="particles-init.js"></script>
 </body>
 </html>
